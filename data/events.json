@@ -1,0 +1,65 @@
+{
+	"2016": {
+		"events": {
+			"1": {
+				"name": "Art in the Park",
+				"location": "Wilder Park",
+				"address": "173 S. Prospect, Elmhurst",
+				"date": "April 30th - June 1st"
+			},
+
+			"2": {
+				"name": "Cantigny Art in Bloom",
+				"location": "Cantigny Park",
+				"address": "151 N Winfield Rd, Wheaton",
+				"date": "June 18th - June 19th"
+			},
+
+			"3": {
+				"name": "Art in the Barn",
+				"location": "Good Shepherd Hospital",
+				"address": "450 W Hwy 22, Barrington",
+				"date": "September 24th - 25th"
+			}			
+		},
+		"name": "2016"
+	},
+
+
+	"2015": {
+		"events": {
+				
+			"1": {
+				"name": "Art in the Park",
+				"location": "Wilder Park",
+				"address": "175 S. Prospect, Elmhurst",
+				"date": "May 2nd - May 3rd"
+			},
+
+			"2": {
+				"name": "Art in Bloom",
+				"location": "Cantigny Park",
+				"address": "151 N Winfield Rd, Wheaton",
+				"date": "June 20th - June 21st"
+			},
+
+			"3": {
+				"name": "Festival of the Arts",
+				"location": "Maryknoll Park",
+				"address": "Rte 53 and Roosevelt, Glen Ellyn",
+				"date": "August 22nd - August 23rd"
+			},
+
+			"4": {
+				"name": "Art in the Barn",
+				"location": "Good Shepherd Hospital",
+				"address": "450 W Hwy 22, Barrington",
+				"date": "September 26th - September 27th"
+			}
+		},
+
+		"name": "2015"
+
+	}
+
+}

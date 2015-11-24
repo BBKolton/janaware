@@ -1,0 +1,139 @@
+body {
+	background-color: #444444;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+	font-family: 'Copperplate Gothic Light' serif;
+	font-size: 25px;
+}
+
+h1, h2, h3 {
+	font-family: 'Copperplate Gothic Light' serif;	
+}
+
+.jumbotron {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.copperplate {
+	font-family: "Copperplate Gothic Light";
+}
+
+.jumbotron-schedule {
+	color: #EEEEEE;
+	background-image: url("../img/schedule.jpg");
+	background-position: 50% 10%;
+	min-height: 600px;
+	height: 60vh;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.schedule {
+	text-align: center;
+	background-color: #000000;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+
+.time-inner {
+	margin: 10px;
+	padding: 5px;
+	background-color: #EEEEEE;
+	border-radius: 8px;
+}
+
+.time-inner h3 {
+	margin-top: 5px;
+}
+
+.schedule h2 {
+	color: white;
+}
+
+.about  {
+	background-color: #8b5231;
+	color: white;
+	min-height: 29vh;
+}
+
+.jumbotron-home {
+	min-height: 600px;
+	height: 65vh;
+	margin-bottom: 0px;
+	text-align: right;
+	background-image: url("../img/index.jpg");
+	color: #DDDDDD;
+	background-position: 50% 50%;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.carousel {
+	margin-top: 30px;
+}
+
+.jumbotron-contact {
+	color: #EEEEEE;
+	background-image: url("../img/contact.jpg");
+	background-position: 50% 25%;
+	min-height: 400px;
+	text-align: left;
+	margin-bottom: 0px;
+	height: 69vh;
+}
+
+.content {
+	text-align: center;
+	background-color: #bd3162;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	color: white;
+	padding-top: 10px;
+}
+
+.content a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.jumbotron-statement {
+	background-image: url("../img/njk.jpg");
+	background-size: cover;
+	background-position: 50% 65%;
+	background-repeat: no-repeat;
+	min-height: 400px;
+	margin-bottom: 0px;
+	height: 63vh;
+}
+
+.statement {
+	text-align: justify;
+	background-color: #5ab4cd;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	color: white;
+	min-height: 29vh;
+}

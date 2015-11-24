@@ -1,0 +1,39 @@
+<div ng-controller='gallery'>
+	<div class="container">		
+		<h1 style='color:white'>My Gallery</h1>
+		<div id="main_area">	
+			<div class="col-md-9" id="slider">		
+				<div class="row">
+					<div class="col-sm-12" id="carousel-bounding-box">
+						<div class="carousel slide" id="myCarousel">					
+							<div class="carousel-inner">
+
+								<div class="item {{$index == 0 ? 'active' : ''}}" data-slide-number="{{$index}}"  ng-repeat="img in imgs track by $index" >
+									<img src="img/{{$index}}.jpg"></div>
+
+							</div>					
+							<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3" id="slider-thumbs">		
+				<ul class="hide-bullets">
+					
+					<li class="col-xs-4 col-sm-3 col-md-6 col-lg-6"  ng-repeat="img in imgs track by $index" >
+						<a class="thumbnail" id="carousel-selector-{{$index}}" ng-click="change($index)">
+							<img src="img/{{$index}}thumb.jpg">
+						</a>
+					</li>
+
+				</ul>
+			</div>	
+		</div>
+	</div>
+</div>
+<script src='js/gallery.js'></script>

@@ -1,0 +1,23 @@
+<div ng-controller='schedule'>
+	<div class="jumbotron jumbotron-schedule">
+		<div class="container">
+			<h1>2015 Schedule</h1>
+		</div>
+	</div>
+	<div class="schedule">
+		<div class="container">
+			<div class="row" ng-repeat="year in events">
+			<h2>{{year.name}}</h2>
+				<div class="col-lg-3 col-sm-6 col-xs-12" ng-repeat='event in year.events'>
+					<div class="time-inner">
+						<h3>{{event.name}}</h3>
+						<p>{{event.date}}<br />
+						{{event.location}}<br />
+						{{event.address}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
